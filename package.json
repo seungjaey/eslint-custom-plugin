@@ -1,0 +1,17 @@
+{
+  "name": "eslint-custom-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src/**/*.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "8.30.0",
+    "eslint-plugin-example": "file:packages/eslint",
+    "prettier": "2.8.1"
+  }
+}
